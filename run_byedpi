@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Using third-party binary, check out source 
+# https://github.com/hufrea/byedpi
+
+./ciadpi --ip 0.0.0.0 --port 1080 -s1 -q1 -Y -At -T5 -b1000 -S -f-1 -r1+sm -As
