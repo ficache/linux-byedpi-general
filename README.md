@@ -1,13 +1,21 @@
 # Linux byedpi portable
-Пренастроенное, переносное решение для обхода блокировок для линукса.
+Пренастроенная таблетка для обхода блокировок под линукс.
 
 В комплекте скомпилированный [byedpi](https://github.com/hufrea/byedpi) под amd64.
 Работает без рут-прав и на любом дистрибутиве* (поддержка musl не тестировалась)
 
+## Текущее состояние
+
+Прокси успешно обходит блокировку ютуба и текстового чата в дискорде.
+Я ищу менее инвазивные способы для решения проблемы с голосовым чатом.
+
+На текущий момент я пытаюсь реализовать способ через [hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel)
+Но безуспешно.
+
 ## Инструкция по запуску
 
 ```bash
-git clone https://github.com/ficache/linux-byedpi-general
+git clone https://github.com/ficache/linux-byedpi-general.git
 cd linux-byedpi-general
 ./run_byedpi
 ```
